@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(120, 15%, 65%);
+}
+
+#panel {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#ptop {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 300px;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(74, 92, 74);
+}
+
+.elem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.elem h2 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.box {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(54, 132, 54);
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: #fff;
+}
+
+#pbtm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex wrap means to do u want to bring the line to new line */
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+
+.bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(74, 92, 74);
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 500;
+}
+
+.bubble:hover {
+  cursor: pointer;
+  background-color: rgb(46, 57, 46);
+}
